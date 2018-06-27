@@ -5,7 +5,10 @@
 - [Preface](0-preface.md)
 - [Introduction](1-introduction.md)
 - Basic concepts
-  - [Merkle Trees](basic_concepts/merkle_tree.md)
+  - [Merkle Tree](basic_concepts/merkle_tree.md)
+  - Hash
+  - Operator
+  - Fraud Proof
   - UTXOs
   - RLP
   - ...
@@ -13,11 +16,16 @@
   - Root chain
   - Child chain
   - New transactions
+  - Confirmation Signatures
   - Exits
+    - Limbo Exits
+  - Fast Withdrawals
 - Faults and Mitigations (sad paths)
-  - Block witholding
+  - Data Availability
+-   Block Witholding
   - Faulty Exits
-  - Invalid child block
+  - Invalid transactions
+  - Invalid child blocks
   - ...
 - Specifications
   - Plasma MVP
